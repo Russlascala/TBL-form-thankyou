@@ -1,0 +1,252 @@
+/* Top Styles */
+#logoImg{
+    width: 90%;
+}
+
+.topBarTxt{
+    background: #00b894 ;
+    padding: 1px;
+    color:#fff;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#sloganOne{
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0.5rem;
+}
+
+.view{
+    background-image: url('../imgs/bg-1.jpg');
+    height: 600px;
+    box-shadow: 0 7px 18px -2px grey;
+    
+}
+
+/* form styles */
+form{
+    background: rgba(255, 255, 255, 0.5)!important;
+}
+
+.form-parts{
+    margin-top: 10px;
+}
+
+#submitBtn{
+    font-weight: bold;
+    color:#fff;
+    background: #00b894;
+    font-size:20px;
+}
+
+.btn:hover {
+  transition : 0.3s;
+  box-shadow : 0px 0px 1px 6px #0fdab1;
+  cursor : pointer;
+}
+
+#secureImg{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom: 10px
+}
+
+#disclaim{
+    margin-bottom: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #000;
+    font-size:10px;
+}
+
+/* After Form Styles */
+ #cityTop{
+    margin-top: 10px;
+    display: none;
+}
+
+/* Info Dropdowns Page Styles  */
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+
+.panel a {
+  color: #2839A9; 
+}
+.panel a:hover {
+  color: #004E33; 
+}
+
+
+/* &gt;  removes gray around text when added to the below css class*/
+.accordion-section .panel-default  .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    /* font-style: italic; */
+    font-size: 20px;
+    font-weight: bold;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-size: 40px;
+    content: "\f102";
+    color: #00b894;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f103";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 16px;
+}
+/* END Info Dropdowns Page Styles  */
+
+.colorThreeSec{
+    background:#00b894;
+    padding:10px; 
+    color: #fff;
+}
+.ctaBtn{
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    background: #4350a7; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 250%;
+    line-height: 100px;
+    font-family: Arial;
+    margin-bottom:20px; 
+    margin-top:5px; 
+}
+
+.contentThree{
+    height:2px;
+    background: #00b894;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#00b894), to(#00b894), color-stop(50%, #fff));
+    margin-bottom: 15px;
+}
+
+/* 425 and smaller
+  .ctaBtn{
+        width: 200px;
+        font-size: 175%;
+        line-height: 75px;
+        font-family: Arial;
+        margin-bottom:15px; 
+        margin-top:15px; 
+    }
+ */
+
+/*   footer section */
+/* section logo above footer */
+#sectionFive{
+    background-color: #e6e6e6;
+   
+}
+/* footer */
+#footerLogo{
+    width:50%;
+    margin:15px;
+}
+.lineFade{ 
+    height:1px;
+    background: #e6e6e6;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#e6e6e6), to(#e6e6e6), color-stop(50%, #00b894));
+}
+/*   end third section */
+footer{
+    background-color: #e6e6e6;
+    color: black;
+}
+
+footer a{
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #2c2c2c;
+}
+footer a:hover{
+    color: #1d3d36;
+}
+
+#altLinks{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+#copyRight{
+    font-size: 12px;
+}
+/*   end footer section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+ 
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+ 
+ 
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+    #cityTop{
+        display: none;
+    }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
+     #cityTop{
+        display: block;
+    }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+ 

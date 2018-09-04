@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>That Boomer Lifestyle</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+            crossorigin="anonymous">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+            crossorigin="anonymous">
+
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- favicon -->
+        <link rel="icon" href="imgs/fav.png" type="image/ico" sizes="16x16">
+    </head>
+
+    <body>
+        <!-- Top Section top bar with number, bottom bar tagtext and form -->
+        <header>
+            <div class="container">
+                <div class="row" style="background: #fff; padding-bottom:5px;">
+                    <div class="col-md-6">
+                        <img src="imgs/logo.png" class="img-responsive" id="logoImg" alt="That Boomer Lifestyle">
+                    </div>
+                    <div class="col-md-6 text-right">
+                       <h5 id="cityTop">
+                           Senior Savings<br>in <span style="font-size:24px;color:#00b894;">Your City</span>
+                       </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="topBarTxt">
+                <div class="col-12">
+                    <h4 class="h4-responsive font-weight-bold mainTxt" id="sloganOne">Discounts on Products &amp; Services for Seniors</h4>
+                </div>
+            </div>
+            <!-- Full Page Intro -->
+            <div class="view">
+                <!-- Mask & flexbox options-->
+                <div class="mask rgba-gradient d-flex justify-content-center align-items-center"></div>
+                <!-- Content -->
+                <div class="container">
+            
+                    <!-- Left Side Text  -->
+                    <div class="row pt-2">
+            
+                        <!--Grid column-->
+                        <div class="col-md-6 white-text text-center text-md-left" style="margin: auto 0;">
+                            <div class="sloganTwo col-md-12">
+                                <!-- <h6 style="font-weight:bold;">Affordable Burial Insurance For Seniors.</h6>A burial insurance policy helps ease the financial burden
+                                placed on a family when a loved one dies. Burial insurance helps your loved ones pay for burial expenses
+                                and funeral services. -->
+            
+                            </div>
+                        </div>
+                        <!--  Right Side form  -->
+                        <div class="col-md-6 mb-4 pt-2 form-align">
+            
+                            <!--Form-->
+                            <form class="card" id="form" data-toggle="validator" action="submit.html" >
+                                 <!-- onSubmit="if(!confirm('Thanks for contacting us! We will be in touch with you shortly.')){return false;}" -->
+                                <div class="card-body">
+                                    <!--Header of form-->
+                                    <div class="text-center">
+                                        <h3 class="white-text">Find Savings Today!</h3>
+                                        <hr class="hr-light">
+                                    </div>
+                                    <!--Body of form-->
+                                    <div class="row">
+            
+                                    <!-- First name form field-->
+                                    <div class="md-form col-12">
+                                        <input type="text" id="fName-form" class="white-text form-control form-parts" placeholder="First Name" required="required">
+                                    </div>
+            
+                                    <!-- Email form field-->
+                                    <div class="md-form col-12">
+                                        <input type="email" id="email-form" class="white-text form-control form-parts" placeholder="Email" data-error="Bruh, that email address is invalid"
+                                            required="required">
+                                    </div>
+            
+                                    <div class="text-center col-12">
+                                        <button class="btn btn-block form-parts" id="submitBtn" type="submit">GET STARTED NOW!</button>
+                                        <div id="messages_content"></div>
+                                    </div>
+                                    <div class="md-form">
+                                        <img src="imgs/secure.png" alt="secure" id="secureImg">
+                                        <hr class="hr-light" style="margin:1px">
+                                        <p id="disclaim" >
+                                            By clicking the "GET STARTED NOW!" button, you agree to our Privacy Policy and authorize That Boomer Lifestyle and its partners
+                                            to contact you at the phone number you entered using automated technology including auto-dialers,
+                                            pre-recorded messages, and text messages, even if your phone is a mobile number or is currently
+                                            listed on any state, federal, or corporate "Do Not Call" list, and you are not required to
+                                            give your consent as a condition of service.</p>
+            
+                                    </div>
+                                </div>
+                            </form>
+                            <!--/. End of Form-->
+                        </div> 
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </div>
+                <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+            <!-- Full Page Intro -->
+        </header>
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-lg-3">
+                    <h4>Save on These Products and Services!</h4>
+                    <table id="serviceSavings">
+                        <tr>
+                            <th>
+                                <i class="fas fa-briefcase-medical"></i>
+                            </th>
+                            <td>Medical Products</td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <i class="fas fa-home"></i>
+                            </th>
+                            <td>Home Mortgage</td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <i class="fas fa-user-md"></i>
+                            </th>
+                            <td>Medicare</td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <i class="fas fa-umbrella"></i>
+                            </th>
+                            <td>Insurance</td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <i class="fas fa-toolbox"></i>
+                            </th>
+                            <td>Home Services</td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <i class="fas fa-money-bill-wave"></i>
+                            </th>
+                            <td>General Discounts</td>
+                        </tr>
+
+                    </table>
+                </div>
+                    <!-- <div class="col-sm-3">
+                    </div> -->
+                    <div class="col-lg-4">
+                        <img src="imgs/beachpic.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-5">
+                    <h5>That Boomer Lifestyle Helps you Save Money!</h5>
+                     That Boomer Lifestyle is dedicated to help baby boomers find discounts and benefits on various programs. If you are 55+
+                    you have paid your dues, you have worked for years, and now it is time for you to reap the rewards. There are plentiful discounts
+                    and ways to save, the trick is you have to know about them and ask! This is where we do the hard work for you, we consistently
+                    research new programs and ways for you save. We have a large infrastructure of partners; that work together to find you savings
+                    on your home mortgage, medical products, insurance, home services, and much more. Fill out the form above to get started!
+                    </div>
+            </div> 
+        </div>
+
+
+        <!-- Start Site Content Section  -->
+        <!-- Info Dropdowns -->
+        <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+            <div class="container">
+        
+                <h1>Save Time and Money Today!</h1>
+        
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+                            <h3 class="panel-title">
+                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true"
+                                    aria-controls="collapse0">
+                                    Save on medical Products
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+                            <div class="panel-body px-3 mb-4">
+                                <p>
+                                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                                    here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use
+                                    Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                            <h3 class="panel-title">
+                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true"
+                                    aria-controls="collapse1">
+                                   Save on your Home Mortgage
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                            <div class="panel-body px-3 mb-4">
+                                <p>
+                                    That Boomer Lifestyle works to provide you with the best deals and rates on home mortgages. Find the rite mortgage that suits
+                                    you and get into your first home. Are you not happy with your current mortgage? We will assist you in refinancing and help
+                                    you get a rate you deserve. Let us help you with one of the most important assets – your home.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+                            <h3 class="panel-title">
+                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true"
+                                    aria-controls="collapse2">
+                                    Get Help and Sace with Medicare
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                            <div class="panel-body px-3 mb-4">
+                                <p>
+                                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                                    here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use
+                                    Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+                            <h3 class="panel-title">
+                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true"
+                                    aria-controls="collapse3">
+                                    Multiple Insurance Savings
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                            <div class="panel-body px-3 mb-4">
+                                <p>
+                                    That Boomer Lifestyle to provide you with the best deals on anything and everything you need for your home. Home insurance
+                                    is a very valuable and often expensive necessity for your home. We make it easy to find the most competitive rates to save
+                                    you money on your most valuable asset and everything inside of it.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading4">
+                            <h3 class="panel-title">
+                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true"
+                                    aria-controls="collapse4">
+                                    Protect Your home and Save money with Home Services Savings
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                            <div class="panel-body px-3 mb-4">
+                                <p>
+                                    That boomer Lifestyle is the best choice when it comes to saving money on a Home Insurance policy. When it comes to owning
+                                    a home, one of the most important things is protecting it. We make it easy to find the most competitive rates to save you
+                                    money. Home insurance can protect you from unforeseen circumstances, such as fires, natural disasters, or vandalism. Home
+                                    Service Experts is here to help you!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading5">
+                            <h3 class="panel-title">
+                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true"
+                                    aria-controls="collapse5">
+                                         General Discounts You never knew Existed
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                            <div class="panel-body px-3 mb-4">
+                                <p>
+                                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                                    here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use
+                                    Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="panel panel-default">
+                        <div class="panel-heading p-3 mb-3" role="tab" id="heading6">
+                            <h3 class="panel-title">
+                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true"
+                                    aria-controls="collapse6">
+                                    More ways towards senior savings!
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                            <div class="panel-body px-3 mb-4">
+                                <p>
+                                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                                    here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use
+                                    Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </section><!-- End Info Dropdowns -->
+        <!-- CTA button -->
+        <button type="button" onclick="scrollToTop(200)" class="btn hoverable ctaBtn" title="Get A Quote">Get A Quote</button>
+        <!-- Three Col Section -->
+        <div class="colorThreeSec" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <h5>Want to take advantage of special discounts for seniors?</h5>
+                        <p>
+                             We've got you covered from Security, Mortgage, Insurance, Entertainment, and even energy bills, all while finding ways to
+                            save you money.
+                        </p>
+                        <div class="contentThree"></div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <h5>Imagine how much you can save!</h5>
+                        <p>
+                             Home Service Experts provides you top options to save money on all major home services, medical products, Medicare, and
+                            General Discounts with no hassles and no obligations.
+                        </p>
+                        <div class="contentThree"></div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <h5>Sign up now and Start Saving!</h5>
+                        <p>
+                             We work with respected and established brands to get all the current promotions and deals in your area.
+                        </p>
+                        <div class="contentThree"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section Logo above footer -->
+        <div id="sectionFive">
+            <div class="container">
+                <div class="col-lg-12 text-center">
+                    <img class="img-responsive" id="footerLogo" alt="National Final Coverage Logo" src="imgs/logo.png">
+                </div>
+            </div>
+        </div>
+        <!-- Blue line fade -->
+        <div class="lineFade"></div>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <div class="row py-2">
+                    <div class="col-lg-12 text-center" id="altLinks">
+                        <a href="#">Privacy Policy</a> |
+                        <a href="#">Terms of Use</a> |
+                        <a href="#">Unsubscribe</a>
+                    </div>
+                    <div class="col-lg-12 text-center" id="copyRight">
+                        &copy; 2018
+                        <a href="#url#"> ThatBoomerLifestyle.com</a> All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- SCRIPTS -->
+        <!-- JQuery -->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+        <!-- Custom Js -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
