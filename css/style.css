@@ -1,6 +1,9 @@
 /* Top Styles */
 #logoImg{
     width: 90%;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
 .topBarTxt{
@@ -31,7 +34,8 @@
 
 /* form styles */
 form{
-    background: rgba(255, 255, 255, 0.5)!important;
+    /* background: rgba(255, 255, 255, 0.5)!important; */
+    background: #e4e4e4!important;;
 }
 
 .form-parts{
@@ -64,6 +68,7 @@ form{
     padding-right: 15px;
     padding-left: 15px;
     color: #000;
+    margin-top: 15px;
     font-size:10px;
 }
 
@@ -83,10 +88,10 @@ h2 {
 }
 
 .panel a {
-  color: #2839A9; 
+  color: #005A34; 
 }
 .panel a:hover {
-  color: #004E33; 
+  color: #364B44; 
 }
 
 
@@ -125,12 +130,12 @@ h2 {
     color: #fff;
 }
 .ctaBtn{
-    color: #fff;
+    color: #000;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 350px;
-    background: #4350a7; 
+    background: #65CB8E; 
     text-align: center;
     font-weight: bold;
     font-size: 250%;
@@ -166,7 +171,7 @@ h2 {
 }
 /* footer */
 #footerLogo{
-    width:50%;
+    width:90%;
     margin:15px;
 }
 .lineFade{ 
@@ -251,6 +256,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
      #cityTop{
         display: block;
     }
+    #footerLogo{
+        width:50%;
+        margin:15px;
+    }
     
 }
  
@@ -261,6 +270,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-    
+    form{
+        background: rgba(255, 255, 255, 0.5)!important;
+    }
 }
  
