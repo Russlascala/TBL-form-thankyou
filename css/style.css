@@ -4,11 +4,15 @@
 }
 
 .topBarTxt{
-    background: #00b894 ;
+    background: #00b894;
     padding: 1px;
-    color:#fff;
+    color: #fff;
     text-align: center;
     margin-top: 5px;
+    width: 100%;
+    box-shadow: 0 7px 18px -2px grey;
+    z-index: 10;
+    position: absolute;
 }
 
 #sloganOne{
@@ -17,9 +21,11 @@
 }
 
 .view{
-    background-image: url('../imgs/bg-1.jpg');
+    background-image: url(../imgs/bg-1.jpg);
     height: 600px;
     box-shadow: 0 7px 18px -2px grey;
+    z-index: -3;
+    margin-top: 79px;
     
 }
 
@@ -224,20 +230,28 @@ Extra small devices (portrait phones, less than 544px)
 No media query since this is the default in Bootstrap because it is "mobile first"
 */
  
+/* Needed to bring up the image for the shadow */
+@media (min-width: 529px) {
+    .view{
+        margin-top: 51px;
+    }
+}
  
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
     #cityTop{
         display: none;
     }
+
 }
- 
+
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
 
      #cityTop{
         display: block;
     }
+    
 }
  
 /* Large devices (desktops, 992px and up) */
