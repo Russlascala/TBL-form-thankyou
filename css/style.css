@@ -253,6 +253,11 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
 
+    #logoImg{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
      #cityTop{
         display: block;
     }
@@ -265,7 +270,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
  
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
- 
+    #logoImg{
+        margin-top: 5px;
+        width: 90%;
+    }
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
