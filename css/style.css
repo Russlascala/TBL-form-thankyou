@@ -2,8 +2,8 @@
 #logoImg{
     width: 90%;
     margin-top: 10px;
-    display: block;
-    margin: 0 auto;
+    /* display: block;
+    margin: 0 auto; */
 }
 
 .topBarTxt{
@@ -203,15 +203,6 @@ footer a:hover{
     font-size: 12px;
 }
 /*   end footer section */
-
-
-
-
-
-
-
-
-
 
 
 
