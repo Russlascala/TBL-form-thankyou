@@ -13,9 +13,7 @@
     text-align: center;
     margin-top: 5px;
     width: 100%;
-    box-shadow: 0 7px 18px -2px grey;
-    z-index: 10;
-    position: absolute;
+    
 }
 
 #sloganOne{
@@ -24,15 +22,11 @@
 }
 
 .view{
-    background-image: url(../imgs/beachppl-wide-top-3-less.jpg);
-    height: 600px;
+    background-image: url(../imgs/beachppl-wide-top-3-less-mobile.jpg);
+    /* height: 600px; */
     box-shadow: 0 7px 18px -2px grey;
-    z-index: -3;
-    
     background-size:cover;
     /* width:100%; */
-    margin-top: 79px;
-    
 }
 
 /* form styles */
@@ -59,7 +53,7 @@ form{
     font-weight: bold;
     color:#fff;
     background: #00b894;
-    font-size:20px;
+    font-size:18px;
 }
 
 .btn:hover {
@@ -156,11 +150,11 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 366px;
+    width: 300px;
     background: #65CB8E; 
     text-align: center;
     font-weight: bold;
-    font-size: 250%;
+    font-size: 200%;
     line-height: 100px;
     font-family: Arial;
     margin-bottom:20px; 
@@ -250,9 +244,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
  
 /* Needed to bring up the image for the shadow */
 @media (min-width: 529px) {
-    .view{
-        margin-top: 51px;
-    }
+   
 }
  
 /* Small devices (landscape phones, 544px and up) */
@@ -266,11 +258,19 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
 
+    .view{
+        background-image: url(../imgs/beachppl-wide-top-3-less.jpg);
+    }
     #logoImg{
         width: 100%;
         margin-top: 10px;
     }
-    
+    #saveOn{
+        margin-bottom:15px;
+    }
+    .marLeft-auto{
+        margin-top: auto;
+    }
      #cityTop{
         display: block;
     }
@@ -287,12 +287,20 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         margin-top: 5px;
         width: 90%;
     }
+    .marLeft-auto{
+        margin-top: 0;
+    }
+   
+   
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
     form{
         background: rgba(255, 255, 255, 0.5)!important;
+    }
+    .marLeft-auto{
+        margin-left: auto;
     }
 }
  
