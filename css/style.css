@@ -101,13 +101,20 @@ h2 {
     text-transform: uppercase;
 }
 
+.panel-title {
+     color: #005A34; 
+}
 .panel a {
   color: #005A34; 
 }
 .panel a:hover {
   color: #364B44; 
+  cursor: pointer;
 }
 
+.panel-title:hover, .accordion-section:hover{
+    color: rgb(0, 128, 74);
+}
 
 /* &gt;  removes gray around text when added to the below css class*/
 .accordion-section .panel-default  .panel-heading {
@@ -130,11 +137,12 @@ h2 {
     float: right;
     margin-top: -12px;
 }
-.accordion-section .panel-default .panel-title a.collapsed:after {
+/* .accordion-section .panel-default .panel-title a.collapsed:after {
     content: "\f103";
-}
+} */
 .accordion-section .panel-default .panel-body {
-    font-size: 16px;
+    font-size: 18px;
+    color: #000;
 }
 /* END Info Dropdowns Page Styles  */
 
