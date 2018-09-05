@@ -24,18 +24,31 @@
 }
 
 .view{
-    background-image: url(../imgs/bg-1.jpg);
+    background-image: url(../imgs/beachppl-wide-top-3-less.jpg);
     height: 600px;
     box-shadow: 0 7px 18px -2px grey;
     z-index: -3;
+    
+    background-size:cover;
+    /* width:100%; */
     margin-top: 79px;
     
 }
 
 /* form styles */
+
+#saveOn{
+    background: rgba(255, 255, 255, 0.5)!important;
+    font-size:18px;
+    font-weight:bold;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
 form{
     /* background: rgba(255, 255, 255, 0.5)!important; */
-    background: #e4e4e4!important;;
+    background: #e4e4e4!important;
+
 }
 
 .form-parts{
@@ -82,7 +95,8 @@ form{
 h2 {
     font-family: Arial, Verdana;
     font-weight: 800;
-    font-size: 2.5rem;
+    font-size: 37px;
+    /* font-size: 2.5rem; */
     color: #091f2f;
     text-transform: uppercase;
 }
@@ -104,7 +118,7 @@ h2 {
 .accordion-section .panel-default .panel-title a {
     display: block;
     /* font-style: italic; */
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 .accordion-section .panel-default .panel-title a:after {
@@ -134,7 +148,7 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
+    width: 366px;
     background: #65CB8E; 
     text-align: center;
     font-weight: bold;
