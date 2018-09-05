@@ -113,7 +113,7 @@ h2 {
 /* &gt;  removes gray around text when added to the below css class*/
 .accordion-section .panel-default  .panel-heading {
     border: 0;
-    background: #f4f4f4;
+    background: #eaeaea;
     padding: 0;
 }
 .accordion-section .panel-default .panel-title a {
