@@ -55,11 +55,11 @@
                     <div class="row pt-2">
             
                         <!--Grid column-->
-                        <div class="col-lg-8 col-md-7 pt-2 marLeft-auto text-md-left">
+                        <div class="col-lg-8 col-md-7 pt-2 marLeft-auto text-md-left bottomMobile">
                            
-                            <div class="col-lg-4 col-md-8 ml-auto" id="saveOn">
+                            <div class="col-lg-8 col-md-7 ml-auto" id="saveOn">
                                 <h4>Save on: </h4>
-                                <table id="serviceSavings">
+                                <table id="list-left">
                                     <tr>
                                         <th>
                                             <i class="fas fa-money-bill-wave fa-fw"></i>
@@ -78,14 +78,14 @@
                                         </th>
                                         <td>Home Services</td>
                                     </tr>
+                                    </table>
+                                    <table id="list-right" >
                                     <tr>
                                         <th>
                                             <i class="fas fa-umbrella fa-fw"></i>
                                         </th>
                                         <td>Insurance</td>
                                     </tr>
-                                    
-                                    
                                     <tr>
                                         <th>
                                             <i class="fas fa-dollar-sign fa-fw"></i>
@@ -97,20 +97,16 @@
                                             <i class="fas fa-briefcase-medical fa-fw"></i>
                                         </th>
                                         <td>Medical Products</td>
-                                    </tr>
-                                    
-                                    <tr>
-                                        <th>
-                                            <i class="fas fa-user-md fa-fw"></i>
-                                        </th>
-                                        <td>Medicare</td>
-                                    </tr>
-                            
+                                    </tr>                            
                                 </table>
+                                
+                            </div>
+                            <div id="arrow">
+                                <img src="imgs/arrow.png" style="width: 169px;">
                             </div>
                         </div>
                         <!--  Right Side form  -->
-                        <div class="col-lg-4 col-md-5 mb-3 pt-2 ml-auto">
+                        <div class="col-lg-4 col-md-5 mb-3 pt-2 ml-auto topMobile">
             
                             <!--Form-->
                             <form class="card" id="form" data-toggle="validator" action="submit.html" >
@@ -193,16 +189,17 @@
                         <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
                             <h3 class="panel-title">
                                 <a class=role="button" title="Find Savings" onclick="scrollToTop(200)">
-                                    Save on medical Products
+                                     Home Mortgage
                                 </a>
                             </h3>
                         </div>
                         <div>
                             <div class="panel-body px-3 mb-4">
                                 <p>
-                                     That Boomer Lifestyle works with its network to find you great innovative products that make your life easier. We work with
-                                    brands such as Inogen, Audicus, and Kohler. Find discounts on top-teir medical products, from customizable hearing aids,
-                                    portable oxygen machines, and even walk in tubs. Fill out the form above to find your discounts.
+                                     That Boomer Lifestyle works to provide you with the best rates on home mortgages. Find the right mortgage that suits you,
+                                    whether it is a reverse mortgage, FHA Loan, VA Loan, or even your first home. Or if you want to save money on your current
+                                    mortgage, we will assist you in refinancing and help you get the rate you deserve. Let us help you with one of your most
+                                    important assets – your home.
                                 </p>
                             </div>
                         </div>
@@ -212,16 +209,16 @@
                         <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
                             <h3 class="panel-title">
                                 <a class=role="button" title="Find Savings" onclick="scrollToTop(200)">
-                                   Save on your Home Mortgage
+                                 Home Services
                                 </a>
                             </h3>
                         </div>
                         <div>
                             <div class="panel-body px-3 mb-4">
                                 <p>
-                                    That Boomer Lifestyle works to provide you with the best deals and rates on home mortgages. Find the right mortgage that suits
-                                    you and get into your first home. Or if you are are not happy with your current mortgage, we will assist you in refinancing and help
-                                    you get the rate you deserve. Let us help you with one of the most important assets – your home.
+                                     When it comes to owning a home, one of the most important things is protecting it. We make it easy to find the most competitive
+                                    rates to save you money on home insurance, security systems, energy bills, cable and phone bills, even a home warranty for
+                                    those expensive appliances and HVAC systems. That Boomer Lifestyle is here to help you!
                                 </p>
                             </div>
                         </div>
@@ -231,16 +228,16 @@
                         <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
                             <h3 class="panel-title">
                                 <a class=role="button" title="Find Savings" onclick="scrollToTop(200)">
-                                    Get Help &amp; Save with Medicare
+                                     Insurance for Your Home, Car, Family and Life
                                 </a>
                             </h3>
                         </div>
                         <div>
                             <div class="panel-body px-3 mb-4">
                                 <p>
-                                 Prior to your retirement, you will most likely be covered by your employer’s health insurance plan. However, once you retire
-                                you may not have insurance until you are 65. We can help you get affordable health insurance plan until you are eligible
-                                for Medicare. Leave the hard work to us, all you have to do is fill out the form above.
+                                 Our network of insurance carriers for life, auto, home, and even final expenses is something we take pride in at That Boomer
+                                Lifestyle. We make it easy to find the most competitive rates to protect for your family and other valuable assets. We even
+                                work with Medicare to help you find affordable health insurance solutions. Leave the hard work to us!
                                 </p>
                             </div>
                         </div>
@@ -250,17 +247,17 @@
                         <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
                             <h3 class="panel-title">
                                 <a class=role="button" title="Find Savings" onclick="scrollToTop(200)">
-                                    Multiple Insurance Savings
+                                     Investment Opportunities
                                 </a>
                             </h3>
                         </div>
                         <div>
                             <div class="panel-body px-3 mb-4">
                                 <p> 
-                                     That Boomer Lifestyle works to provide you with the best deals on all types of insurance needs. Our network of life, burial
-                                    and even Home insurance are here to make sure you are covered. Your life, family and home are the most valuable things you
-                                    have. We make it easy to find the most competitive insurance rates to save you money on your most valuable asset and everything
-                                    inside of it.
+                                     That Boomer Life Style works to provide you with special investment opportunities to meet your needs. Our goal is to help
+                                    you secure and steadily grow your retirement assets such as 401k or IRA. We work with everything from top precious metal
+                                    providers that convert assets into physical Gold or Silver, or even digital currencies such as bitcoin. We have many different
+                                    opportunities to maximize the performance of your liquid assets.
                                 </p>
                             </div>
                         </div>
@@ -270,40 +267,22 @@
                         <div class="panel-heading p-3 mb-3" role="tab" id="heading4">
                             <h3 class="panel-title">
                                 <a class=role="button" title="Find Savings" onclick="scrollToTop(200)">
-                                    Protect Your home &amp; Save money with Home Services Savings
+                                     Medical Products
                                 </a>
                             </h3>
                         </div>
                         <div>
                             <div class="panel-body px-3 mb-4">
                                 <p>
-                                    That boomer Lifestyle is the best choice when it comes to saving money on a Home services. When it comes to owning
-                                    a home, one of the most important things is protecting it. We make it easy to find the most competitive rates to save you
-                                    money on home Insurance and Home Security. Home insurance and home security can protect you from unforeseen circumstances, such as fires, natural disasters, or vandalism and break-ins. That Boomer Lifestyle is here to help you!
+                                 As you get older, your medical needs increase in ways you never imagined - often very expensive ways! That Boomer Lifestyle
+                                created a network of necessary and innovative products to make your life easier. We work with major brands of products and
+                                services from walk in tubs, to customized hearing aids, to lifeline devices, on portable oxygen machines, diabetic testing
+                                devices, and so much more. Fill out the form above to find the discounted products in your area.
                                 </p>
                             </div>
                         </div>
                     </div>
         
-                    <div class="panel panel-default">
-                        <div class="panel-heading p-3 mb-3" role="tab" id="heading5">
-                            <h3 class="panel-title">
-                                <a class=role="button" title="Find Savings" onclick="scrollToTop(200)">
-                                        Investment Opportunities
-                                </a>
-                            </h3>
-                        </div>
-                        <div>
-                            <div class="panel-body px-3 mb-4">
-                                <p>
-                                     That Boomer Life Style works to provide you with investing opportunities. We work with networks that help you secure your
-                                    401k or IRA in physical Gold, Silver, Platinum, Palladium, other precious metals, or digital currencies such as bitcoin and
-                                    other cryptocurrencies. You can buy gold and silver coins, gold bars and bullion, and even convert your qualified IRA/401K
-                                    into precious metals or digital currencies. We also work with networks that help you secure your retirement.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
         
                     <div class="panel panel-default">
                         <div class="panel-heading p-3 mb-3" role="tab" id="heading6">
@@ -316,9 +295,9 @@
                         <div >
                             <div class="panel-body px-3 mb-4">
                                 <p>
-                                    That Boomer Life Style is consistently expanding its network of partners. We are always on the search for new and improving
-                                    products to make your life easier. We work with brands that are working for you. Keep up to date with new and offers and
-                                    discounts by filling out the form above.
+                                     That Boomer Life Style is consistently expanding its network of partners, products and services. We are always searching
+                                    for new and improved products to make your life better. We work with respected brands to secure special pricing and discounts
+                                    for you. Always keep up to date with our latest offerings by filling out the form above.
                                 </p>
                             </div>
                         </div>
