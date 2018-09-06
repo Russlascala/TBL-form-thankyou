@@ -14,6 +14,14 @@ header {
     /* #035E6F */
 }
 
+.showMobile{
+    display:block;
+}
+
+.showDesktop{
+    display: none;
+}
+
 .bgTxt{
     font-size: 30px;
     font-weight: bold;
@@ -60,10 +68,7 @@ header {
 .ctaBtn button {
     font-weight: bold;
 }
-/* End offers styles  */
-.cardLogos{
-    width: 30%;
-}
+
 .cardImgs{
     width:100%;
 }
@@ -189,44 +194,17 @@ footer a:hover{
 @media only screen and (max-width: 600px) {
     /* Top Header Styles */
 
-    #logoImg, #cardsImg{
+    #logoImg {
        margin: 0 auto;
        width: 100%;
     } 
 
-    #cardsImg{
-        margin-top: 0px;
-        margin-bottom: 0px;
-        display: none;
-    }
-
-    #showAt600{
-        display: block;
-        text-align: left;
-        font-size: 16px;
-    }
-
-    .bottomHead h2{
-        font-size: 24px;
-    }
-   .threeSteps {
-        text-align: left;
-        margin-left: 50px;
-    } 
 
     #logoImg {
         margin-top: 10px;
         margin-bottom: 10px;
    }
-   .cardLogos{
-        width: 60%;
-        margin-bottom: 10px;
-    }
-    .cardImgs{
-        width: 70%;
-        display: block;
-        margin: 0 auto;
-    }
+  
     .btn {
         margin-top: 10px; 
     }
@@ -236,41 +214,29 @@ footer a:hover{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     /* Top Header Styles */
-    #logoImg, #cardsImg{
-       margin: 0 auto;
-   } 
+
    #logoImg {
         margin-top: 15px;
         margin-bottom: 15px;
    }
-   #cardsImg{
-       margin-top: 10px;
-   }
-    #cardsImg2{
-        width: 100%;
-    }
+ 
     .ribbon{
        width: 50%;
    }
-   .cardLogos{
-        width: 60%;
-        margin-bottom: 10px;
-    }
-     .threeSteps{
-        text-align: left;
-    }
+   
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     /* Top Header Styles */
-    #cardsImg{
-        width: 80%;
-        margin-top: 10px;
+
+
+    .showMobile{
+        display:none;
     }
-    .cardLogos{
-        width: 30%;
-        margin-bottom: 10px;
+
+    .showDesktop{
+        display: block;
     }
 
 
@@ -289,10 +255,6 @@ footer a:hover{
         margin-right: auto;
         margin-left: auto;
     }
-    #cardsImg{
-        display: block; 
-        margin-right: 0;
-        margin-left: auto;
-    }
+
 }
 
