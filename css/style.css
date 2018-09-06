@@ -1,9 +1,10 @@
 /* Top Styles */
 #logoImg{
     width: 90%;
-    margin-top: 10px;
-    /* display: block;
-    margin: 0 auto; */
+    margin-top: 10px!important;
+    display: block;
+    margin: 0 auto;
+
 }
 
 .topBarTxt{
