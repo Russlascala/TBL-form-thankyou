@@ -109,8 +109,8 @@ header {
     position: relative;
     z-index: 30;
     padding: 7px 0;
-    left: -19px;
-    top: 31px;
+    left: -8px;
+    top: 22px;
     width: 220px;
     background-color: #007bff;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#007bff), to(#0069d9)); 
