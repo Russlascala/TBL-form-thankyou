@@ -1,6 +1,4 @@
-.autoMargin {
-    margin: auto;
-}
+
 /* Top Header Styles */
 header {
     background: #F0F0F0;
@@ -19,7 +17,10 @@ header {
     font-size: 30px;
     font-weight: bold;
 }
-
+.btn{
+    background: #00b894;
+    border-color: #005B41;
+}
 
 .lineTop {
     background: #00b894;
