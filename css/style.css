@@ -127,7 +127,7 @@ h2 {
 .accordion-section .panel-default .panel-title a {
     display: block;
     /* font-style: italic; */
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
 }
 .accordion-section .panel-default .panel-title a:after {
@@ -138,6 +138,7 @@ h2 {
     color: #00b894;
     float: right;
     margin-top: -12px;
+    
 }
 /* .accordion-section .panel-default .panel-title a.collapsed:after {
     content: "\f103";
