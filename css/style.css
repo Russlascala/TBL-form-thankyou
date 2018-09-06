@@ -126,20 +126,18 @@ h2 {
 }
 .accordion-section .panel-default .panel-title a {
     display: block;
-    /* font-style: italic; */
     font-size: 22px;
     font-weight: bold;
 }
-.accordion-section .panel-default .panel-title a:after {
-    font-family: 'Font Awesome 5 Free';
-    font-style: normal;
+
+.panel-heading i{
     font-size: 40px;
-    content: "\f102";
+    /* content: "\f102"; */
     color: #00b894;
     float: right;
-    margin-top: -12px;
-    
+    margin-top: -27px;
 }
+
 /* .accordion-section .panel-default .panel-title a.collapsed:after {
     content: "\f103";
 } */

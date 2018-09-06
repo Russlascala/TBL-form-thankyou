@@ -171,15 +171,23 @@ footer a:hover{
 /* End Footer Styles */
 
 
+
 /* Responsive Css */
+
+@media only screen and (max-width: 451px ) {
+    .bgTxt{
+        font-size: 24px;
+    }
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     /* Top Header Styles */
 
     #logoImg, #cardsImg{
        margin: 0 auto;
-       width: 60%;
+       width: 100%;
     } 
+
     #cardsImg{
         margin-top: 0px;
         margin-bottom: 0px;
